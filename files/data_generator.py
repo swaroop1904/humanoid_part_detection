@@ -8,8 +8,8 @@ from skimage.io import imread
 
 class detection_dataset(Dataset):
     def __init__(self, img_size, img_folder_path, csv_path, transform=True):
-        self.height = img_size[0]
-        self.width = img_size[1]
+        self.height = img_size[1]
+        self.width = img_size[0]
         self.folder_path = img_folder_path
         self.img_files = os.listdir(img_folder_path)
         self.csv_path = csv_path
