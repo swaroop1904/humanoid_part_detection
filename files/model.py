@@ -1,5 +1,4 @@
 import torch
-from torchvision.models import resnet18
 from torch import nn
 
 class Identity(nn.Module):
@@ -10,11 +9,8 @@ class Identity(nn.Module):
         return x
 
 class Model(nn.Module):
-    def __init__(self):
+    def __init__(self. resnet):
         super(Model, self).__init__()
-        resnet = resnet18(pretrained=True)
-        resnet.avgpool = Identity()
-        resnet.fc = Identity()
 
         self.downsampling = resnet
 

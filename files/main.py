@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from torch.optim import Adam
 from torch.utils.data import DataLoader
-
+from torchvision.models import resnet18
 import cv2
 
 from data_generator import detection_dataset
