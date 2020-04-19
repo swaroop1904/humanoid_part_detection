@@ -1,6 +1,8 @@
 # vision_labs_project
 This is an reimplementation of the humanoid body part detector as discussed in "NimbRo-OP2X: adult-sized Open-source 3D printed humanoid robot [[pdf](https://www.ais.uni-bonn.de/papers/Humanoids_2018_Ficht_NimbRo-OP2X.pdf)]"
 
+The network is trained on 2000 images from various robocup competitions youtube videos. Pretrained weights have been used for ResNet encoder network. 
+
 #### Network output
 ![Detected keypoints](https://github.com/swaroop1904/vision_labs_project/blob/master/images/visualization_1.png "actual image") ![Detected keypoints](https://github.com/swaroop1904/vision_labs_project/blob/master/images/visualization_1_1.png "head")  ![Detected keypoints](https://github.com/swaroop1904/vision_labs_project/blob/master/images/visualization_1_2.png "foot")  ![Detected keypoints](https://github.com/swaroop1904/vision_labs_project/blob/master/images/visualization_1_3.png "hand")  
 ![Detected keypoints](https://github.com/swaroop1904/vision_labs_project/blob/master/images/visualization_1_4.png "trunk") 
