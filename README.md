@@ -1,5 +1,5 @@
 # vision_labs_project
-This is an reimplementation of the humanoid body part detector as discussed in "NimbRo-OP2X: adult-sized Open-source 3D printed humanoid robot [[pdf](https://www.ais.uni-bonn.de/papers/Humanoids_2018_Ficht_NimbRo-OP2X.pdf)]"
+This is a reimplementation of the humanoid body part detector as discussed in "NimbRo-OP2X: adult-sized Open-source 3D printed humanoid robot [[pdf](https://www.ais.uni-bonn.de/papers/Humanoids_2018_Ficht_NimbRo-OP2X.pdf)]"
 
 The network is trained on 2000 images (manually annotated as part of this work) from various robocup competitions youtube videos. Pretrained weights have been used for ResNet encoder network. 
 
